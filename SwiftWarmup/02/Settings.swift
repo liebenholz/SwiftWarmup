@@ -17,7 +17,6 @@ struct SettingInfo: Hashable {
 struct Settings: View {
     
     let data: [[SettingInfo]] = [
-        
         [SettingInfo(title: "Screen Time", systemName: "hourglass", backgroungColor: .indigo, foregroundColor: .white)],
         [SettingInfo(title: "General", systemName: "gear", backgroungColor: .gray, foregroundColor: .white),
         SettingInfo(title: "Accessibility", systemName: "accessibility", backgroungColor: .blue, foregroundColor: .white),
