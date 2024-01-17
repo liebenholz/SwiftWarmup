@@ -20,7 +20,7 @@ struct MyTab2: View {
                     Label("Sent", systemImage: "tray.and.arrow.up.fill")
                 }
             TabDetail3()
-                .badge("!") // 문자도 abDetail1()들어감
+                .badge("!") // 문자도 TabDetail1()에 들어감
                 .tabItem {
                     Label("Account", systemImage: "person.crop.circle.fill")
                 }
