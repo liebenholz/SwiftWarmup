@@ -44,7 +44,6 @@ struct ListLoop: View {
                     }
                 }.padding()
                 
-                
                 List {
                     ForEach(favoriteDesserts, id: \.self) {
                         dessert in

@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct OnBoarding2: View {
+    
+    let onboardingTitle: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            VStack {
+                Image(systemName: "tray.and.arrow.up.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 100)
+                Text(onboardingTitle)
+                    .padding()
+            }
+        }
     }
 }
 
 #Preview {
-    OnBoarding2()
+    OnBoarding2(onboardingTitle: "This is Detail!")
 }

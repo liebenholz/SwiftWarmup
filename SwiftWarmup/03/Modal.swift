@@ -8,8 +8,23 @@
 import SwiftUI
 
 struct Modal: View {
+    
+    @State var showModal: Bool = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("This is Main Page.")
+            
+            Button {
+                showModal = true
+                // showModal.toggle()
+            } label : {
+                Text("Modal Screen Change")
+            }
+        }
+        .sheet(isPresented: $showModal) {
+            // 바인딩으로 연결하기
+            Detail(isPresented: $showModal)
+        }
     }
 }
 

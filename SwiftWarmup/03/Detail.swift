@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct Detail: View {
+    
+    @Binding var isPresented: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("This is Modal Page.")
+        
+        Button {
+            isPresented = false
+            // showModal.toggle()
+        } label : {
+            Text("Close")
+        }
     }
 }
 
 #Preview {
-    Detail()
+    Detail(isPresented: .constant(true))
 }

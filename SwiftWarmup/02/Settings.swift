@@ -47,7 +47,6 @@ struct Settings: View {
                         }
                     }
                 }
-                
 //                Section {
 //                    Label {
 //                        Text("Screen Time")

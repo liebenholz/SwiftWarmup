@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1305FA412B560EB7002CB5D0 /* Modal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305FA402B560EB7002CB5D0 /* Modal.swift */; };
+		1305FA432B560FAA002CB5D0 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305FA422B560FAA002CB5D0 /* Detail.swift */; };
+		1305FA452B5618A1002CB5D0 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305FA442B5618A1002CB5D0 /* Navigation.swift */; };
+		1305FA472B561ADD002CB5D0 /* MyNavigationLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305FA462B561ADD002CB5D0 /* MyNavigationLink.swift */; };
+		1305FA492B5620E3002CB5D0 /* MyTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305FA482B5620E3002CB5D0 /* MyTab.swift */; };
+		1305FA4B2B5623DE002CB5D0 /* TabDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1305FA4A2B5623DE002CB5D0 /* TabDetail.swift */; };
 		137EC22E2B5501E4006AF736 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137EC22D2B5501E4006AF736 /* Settings.swift */; };
+		13DB71262B5628240088373B /* MyTab2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB71252B5628240088373B /* MyTab2.swift */; };
+		13DB71292B562A440088373B /* MyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB71282B562A440088373B /* MyApp.swift */; };
+		13DB712C2B562EAA0088373B /* FirstListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB712B2B562EA90088373B /* FirstListPage.swift */; };
+		13DB712E2B562F700088373B /* OnBoardingSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB712D2B562F700088373B /* OnBoardingSample.swift */; };
+		13DB71332B562F8C0088373B /* OnBoardingWithButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DB71322B562F8C0088373B /* OnBoardingWithButton.swift */; };
 		13FF02B52B54BE130013BD67 /* SwiftWarmupApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FF02B42B54BE130013BD67 /* SwiftWarmupApp.swift */; };
 		13FF02B72B54BE130013BD67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13FF02B62B54BE130013BD67 /* ContentView.swift */; };
 		13FF02B92B54BE140013BD67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13FF02B82B54BE140013BD67 /* Assets.xcassets */; };
@@ -42,7 +53,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1305FA402B560EB7002CB5D0 /* Modal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modal.swift; sourceTree = "<group>"; };
+		1305FA422B560FAA002CB5D0 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
+		1305FA442B5618A1002CB5D0 /* Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigation.swift; sourceTree = "<group>"; };
+		1305FA462B561ADD002CB5D0 /* MyNavigationLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationLink.swift; sourceTree = "<group>"; };
+		1305FA482B5620E3002CB5D0 /* MyTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTab.swift; sourceTree = "<group>"; };
+		1305FA4A2B5623DE002CB5D0 /* TabDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabDetail.swift; sourceTree = "<group>"; };
 		137EC22D2B5501E4006AF736 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		13DB71252B5628240088373B /* MyTab2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTab2.swift; sourceTree = "<group>"; };
+		13DB71282B562A440088373B /* MyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyApp.swift; sourceTree = "<group>"; };
+		13DB712B2B562EA90088373B /* FirstListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstListPage.swift; sourceTree = "<group>"; };
+		13DB712D2B562F700088373B /* OnBoardingSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingSample.swift; sourceTree = "<group>"; };
+		13DB71322B562F8C0088373B /* OnBoardingWithButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingWithButton.swift; sourceTree = "<group>"; };
 		13FF02B12B54BE130013BD67 /* SwiftWarmup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWarmup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13FF02B42B54BE130013BD67 /* SwiftWarmupApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWarmupApp.swift; sourceTree = "<group>"; };
 		13FF02B62B54BE130013BD67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,6 +112,14 @@
 		137EC22F2B552D7D006AF736 /* 03 */ = {
 			isa = PBXGroup;
 			children = (
+				13DB712A2B562E880088373B /* MyApp */,
+				1305FA402B560EB7002CB5D0 /* Modal.swift */,
+				1305FA422B560FAA002CB5D0 /* Detail.swift */,
+				1305FA442B5618A1002CB5D0 /* Navigation.swift */,
+				1305FA462B561ADD002CB5D0 /* MyNavigationLink.swift */,
+				1305FA482B5620E3002CB5D0 /* MyTab.swift */,
+				13DB71252B5628240088373B /* MyTab2.swift */,
+				1305FA4A2B5623DE002CB5D0 /* TabDetail.swift */,
 			);
 			path = 03;
 			sourceTree = "<group>";
@@ -99,6 +129,24 @@
 			children = (
 			);
 			path = 04;
+			sourceTree = "<group>";
+		};
+		13DB71272B5629FC0088373B /* 05 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 05;
+			sourceTree = "<group>";
+		};
+		13DB712A2B562E880088373B /* MyApp */ = {
+			isa = PBXGroup;
+			children = (
+				13DB71282B562A440088373B /* MyApp.swift */,
+				13DB712B2B562EA90088373B /* FirstListPage.swift */,
+				13DB712D2B562F700088373B /* OnBoardingSample.swift */,
+				13DB71322B562F8C0088373B /* OnBoardingWithButton.swift */,
+			);
+			path = MyApp;
 			sourceTree = "<group>";
 		};
 		13FF02A82B54BE130013BD67 = {
@@ -130,6 +178,7 @@
 				13FF02EC2B54D1040013BD67 /* 02 */,
 				137EC22F2B552D7D006AF736 /* 03 */,
 				137EC2302B552D8B006AF736 /* 04 */,
+				13DB71272B5629FC0088373B /* 05 */,
 				13FF02B82B54BE140013BD67 /* Assets.xcassets */,
 				13FF02BA2B54BE140013BD67 /* Preview Content */,
 			);
@@ -313,16 +362,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13DB71332B562F8C0088373B /* OnBoardingWithButton.swift in Sources */,
+				13DB712C2B562EAA0088373B /* FirstListPage.swift in Sources */,
+				1305FA412B560EB7002CB5D0 /* Modal.swift in Sources */,
 				13FF02EE2B54D13D0013BD67 /* ListLoop.swift in Sources */,
+				1305FA432B560FAA002CB5D0 /* Detail.swift in Sources */,
 				13FF02EA2B54CACC0013BD67 /* MyDescription.swift in Sources */,
+				1305FA4B2B5623DE002CB5D0 /* TabDetail.swift in Sources */,
+				13DB71292B562A440088373B /* MyApp.swift in Sources */,
 				13FF02E62B54C7FD0013BD67 /* MyText.swift in Sources */,
 				13FF02E12B54C5140013BD67 /* LayoutView.swift in Sources */,
 				137EC22E2B5501E4006AF736 /* Settings.swift in Sources */,
+				13DB71262B5628240088373B /* MyTab2.swift in Sources */,
 				13FF02B72B54BE130013BD67 /* ContentView.swift in Sources */,
 				13FF02E42B54C6BB0013BD67 /* MyButton.swift in Sources */,
+				1305FA452B5618A1002CB5D0 /* Navigation.swift in Sources */,
+				1305FA492B5620E3002CB5D0 /* MyTab.swift in Sources */,
 				13FF02DF2B54C25C0013BD67 /* SimpleView.swift in Sources */,
+				13DB712E2B562F700088373B /* OnBoardingSample.swift in Sources */,
 				13FF02B52B54BE130013BD67 /* SwiftWarmupApp.swift in Sources */,
 				13FF02E82B54CA0C0013BD67 /* OnBoarding.swift in Sources */,
+				1305FA472B561ADD002CB5D0 /* MyNavigationLink.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

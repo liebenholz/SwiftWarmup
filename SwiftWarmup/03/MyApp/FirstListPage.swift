@@ -9,7 +9,34 @@ import SwiftUI
 
 struct FirstListPage: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            List {
+                NavigationLink {
+                    Text("First Subpage")
+                } label: {
+                    Text("First")
+                }
+                
+                NavigationLink {
+                    Text("Second Subpage")
+                } label: {
+                    Text("Second")
+                }
+                
+                NavigationLink {
+                    Text("Third Subpage")
+                } label: {
+                    Text("Third")
+                }
+                
+                NavigationLink {
+                    Text("Fourth Subpage")
+                } label: {
+                    Text("Fourth")
+                }
+            }
+            .navigationTitle("Received")
+        }
     }
 }
 

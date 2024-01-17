@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct MyNavigationLink: View {
+    
+    var description: String
+    var title: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationLink{
+            Text(description)
+        } label: {
+            Text(title)
+        }
     }
 }
 
 #Preview {
-    MyNavigationLink()
+    MyNavigationLink(description: "Description", title: "title")
 }
