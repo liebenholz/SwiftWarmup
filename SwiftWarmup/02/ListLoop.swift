@@ -22,9 +22,6 @@ struct ListLoop: View {
         Dessert(name: "Gingerbread", matchDessertName: "Froyo", price: 0.79),
         Dessert(name: "Honeycomb", matchDessertName: "Eclair", price: 3.99),
     ]
-
-    
-//    var desserts: [String] = ["Cupcake", "Donut", "Eclair", "Froyo", "Gingerbread", "Honeycomb", "Ice-cream Sandwich", "Jellybean", "Kitkat", "Lollipop", "Marshmallow", "Nougat", "Oreo", "Pie", "Quince Tart", "Red Velvet Cake", "Snow Cone", "Tiramisu", "Upside Down Cake"]
     
     @State var dessertName: String = ""
     

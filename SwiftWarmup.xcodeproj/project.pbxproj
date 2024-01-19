@@ -124,20 +124,6 @@
 			path = 03;
 			sourceTree = "<group>";
 		};
-		137EC2302B552D8B006AF736 /* 04 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = 04;
-			sourceTree = "<group>";
-		};
-		13DB71272B5629FC0088373B /* 05 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = 05;
-			sourceTree = "<group>";
-		};
 		13DB712A2B562E880088373B /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -177,8 +163,6 @@
 				13FF02E22B54C52B0013BD67 /* 01 */,
 				13FF02EC2B54D1040013BD67 /* 02 */,
 				137EC22F2B552D7D006AF736 /* 03 */,
-				137EC2302B552D8B006AF736 /* 04 */,
-				13DB71272B5629FC0088373B /* 05 */,
 				13FF02B82B54BE140013BD67 /* Assets.xcassets */,
 				13FF02BA2B54BE140013BD67 /* Preview Content */,
 			);
