@@ -14,6 +14,9 @@ struct Dessert: Hashable {
 }
 
 struct ListLoop: View {
+    
+    @State var dessertName: String = ""
+    
     @State var favoriteDesserts = [
         Dessert(name: "Cupcake", matchDessertName: "Donut", price: 2.49),
         Dessert(name: "Donut", matchDessertName: "Cupcake", price: 0.99),
@@ -22,8 +25,6 @@ struct ListLoop: View {
         Dessert(name: "Gingerbread", matchDessertName: "Froyo", price: 0.79),
         Dessert(name: "Honeycomb", matchDessertName: "Eclair", price: 3.99),
     ]
-    
-    @State var dessertName: String = ""
     
     var body: some View {
         NavigationStack {
